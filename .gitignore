@@ -21,3 +21,24 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore build/cache files
+/bin/
+/target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Ignore IDE files
+/.classpath
+/.project
+/.settings/
+/.idea/
+/.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,83 @@
+.user-list-container {
+  margin: 30px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.user-list-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.no-data {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.user-details h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.user-details p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.card-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
